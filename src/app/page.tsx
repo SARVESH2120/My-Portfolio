@@ -18,8 +18,8 @@ export default function Home() {
   <Projects/>
   <Services/>
   <Blog/>
-  <ScrollTriggered/>
-  <ImageSlider/>
+  {/* <ScrollTriggered/> */}
+  {/* <ImageSlider/> */}
   <Contact/>
 </main>
   );
