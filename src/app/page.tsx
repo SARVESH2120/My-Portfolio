@@ -7,8 +7,8 @@ import Contact from "./contact";
 import Services from "./work";
 import Projects from "./projects";
 import Blog from "./blog";
-import ImageSlider from "./slider";
-import ScrollTriggered from "./motio";
+// import ImageSlider from "./slider";
+// import ScrollTriggered from "./motio";
 
 export default function Home() {
   return (
