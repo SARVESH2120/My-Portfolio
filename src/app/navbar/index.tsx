@@ -60,9 +60,9 @@ const Navbar = () => {
             <li className="px-6 py-2 cursor-pointer hover:bg-gray-800">About Me</li>
             <li className="px-6 py-2 cursor-pointer hover:bg-gray-800">Projects</li>
             <li className="px-6 py-2 cursor-pointer hover:bg-gray-800">
-              <Link href="https://hashnode.com/@sarveshgupta" target="_blank" rel="noopener noreferrer">
-                Blog
-              </Link>
+              <a href="https://hashnode.com/@sarveshgupta" target="_blank" rel="noopener noreferrer">
+            Blog
+          </a>
             </li>
             <li className="px-6 py-2 cursor-pointer hover:bg-gray-800">Contact Us</li>
           </ul>
