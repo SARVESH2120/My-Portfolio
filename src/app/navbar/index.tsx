@@ -23,7 +23,7 @@
 
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
-import Link from "next/link"
+// import Link from "next/link"
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
