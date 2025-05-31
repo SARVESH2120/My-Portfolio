@@ -176,7 +176,7 @@ export default function Timeline() {
                 {/* Timeline content - alternating sides on desktop */}
                 <div
                   className={twMerge(
-                    "relative sm:w-1/2 pl-12 sm:pl-0 pb-8",
+                    "relative sm:w-1/2 pl-12 sm:pl-0 pb-8 ",
                     isEven ? "sm:pr-12 sm:text-right" : "sm:order-last sm:pl-12",
                   )}
                 >
