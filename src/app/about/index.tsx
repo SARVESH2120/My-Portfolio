@@ -80,7 +80,7 @@ const About = () => {
           transition={{ duration: 2 }}
           className="text-4xl md:text-5xl font-extrabold text-white text-center"
         >
-          <span className="inline-flex items-center gap-2">
+          <span className="inline-flex items-center ">
             Hey, I am Sarvesh Gupta <Plane size={48} strokeWidth={2} />
           </span>{" "}
         </motion.h1>
