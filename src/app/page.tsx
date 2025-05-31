@@ -7,6 +7,7 @@ import Contact from "./contact";
 import Services from "./work";
 import Projects from "./projects";
 import Blog from "./blog";
+import Timeline from "./timeline";
 // import ImageSlider from "./slider";
 // import ScrollTriggered from "./motio";
 
@@ -18,6 +19,7 @@ export default function Home() {
   <Projects/>
   <Services/>
   <Blog/>
+  <Timeline/>
   {/* <ScrollTriggered/> */}
   {/* <ImageSlider/> */}
   <Contact/>
