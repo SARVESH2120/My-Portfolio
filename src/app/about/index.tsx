@@ -13,6 +13,7 @@ import "swiper/css";
 import "swiper/css/effect-cards";
 
 import { motion } from "framer-motion";
+import { Plane } from "lucide-react";
 
 const About = () => {
   // const words = ["SDE", "Developer", "Engineer"];
@@ -79,7 +80,9 @@ const About = () => {
           transition={{ duration: 2 }}
           className="text-4xl md:text-5xl font-extrabold text-white text-center"
         >
-          Hey, I am Sarvesh Gupta.
+          <span className="inline-flex items-center gap-2">
+            Hey, I am Sarvesh Gupta <Plane size={48} strokeWidth={2} />
+          </span>{" "}
         </motion.h1>
 
         {/* Profile Image with Gradient Glow */}

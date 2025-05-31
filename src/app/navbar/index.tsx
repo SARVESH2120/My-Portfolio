@@ -34,7 +34,7 @@ const Navbar = () => {
 
   return (
     <nav className="relative flex items-center justify-between px-6 py-5 border-b border-gray-700">
-      <div className="text-xl font-bold">Sarvesh Gupta</div>
+      <div className="text-xl font-bold">Sarvesh Gupta </div>
 
       {/* Desktop Navigation */}
       <ul className="hidden md:flex gap-6">
